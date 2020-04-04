@@ -28,7 +28,7 @@
 	//l_init viewer
       var viewer = new Cesium.Viewer('map', {
         animation: false,
-        baseLayerPicker: false,
+        baseLayerPicker: true,
         navigationHelpButton: true,
         sceneModePicker: false,
         homeButton: false,
